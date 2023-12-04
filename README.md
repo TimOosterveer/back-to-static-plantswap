@@ -1,33 +1,36 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Plantswap
+![image](https://github.com/TimOosterveer/buurtcampus_oost_components/assets/112857270/63507a17-2858-4b15-a209-06753fa6b40d)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-## Inhoudsopgave
+<h2 align="center">✨ About ✨ </h2>
+We've cultivated an amazing plant swap website for Stekjesbieb! 🌿 Visitors can explore various plants here and dive deeper into the plantswap initiative. We've added a touch of charm to make the experience even more delightful! ✨🌱
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+<h2 align="center"> 🍀The Website🍀</h2>
+<br>
+For the Stekjesbieb, we have developed an amazing plant swap website. 🌿
+Visitors can explore plants and learn more about the plant swap initiative. Upon visiting our website, you'll be greeted with an informative homepage. Here, we explain what plant swapping is and how you can participate in this initiative yourself. Furthermore, you can view all available cuttings on the website and find detailed information about each cutting on the individual detail page. 🌱
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Additionally, Stekjesbieb offers workshops where you can learn the best practices for caring for your cuttings. 🌸 These workshops can also be found on our website. Finally, on our contact page, you can find all the information about our location and the possibility to get in touch with us. 📌
+<h2 align="center"> 🪚Languages-Frameworks-Tools🪚</h2>
+<br>
+These are the tools, frameworks, and languages that were used to create this project💡
+<div>
+ <br>
+    <img src="https://skillicons.dev/icons?i=html,css,javascript,github"><br>
+    <img src="https://skillicons.dev/icons?i=vscode,svelte,figma">
+</div>
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+<h2 align="center"> 🔨Instalation guide🔨</h2>
+<br>
 
-## Installatie
+1. **Fork this repository.**
 
-## Gebruik
+2. **Clone it using GitHub Desktop and open it in your preferred code editor.**
 
-## Bronnen
+3. **This project utilizes a `.env` file for retrieving the API token.**
 
-## Licentie
+4. **Finally, install the dependencies by using `npm install` in your command line.**
 
-This project is licensed under the terms of the [MIT license](./LICENSE).
+
+
+
