@@ -1,5 +1,5 @@
 <script>
-    import img from "$lib/assets/laatste.jpg"
+    import img from "$lib/assets/laatste.avif"
 </script>
 
 <section>
