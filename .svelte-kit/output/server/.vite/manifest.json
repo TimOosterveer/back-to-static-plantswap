@@ -72,9 +72,9 @@
     "isEntry": true,
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
   },
-  "src/lib/assets/bovenste.jpg": {
-    "file": "_app/immutable/assets/bovenste.97226616.jpg",
-    "src": "src/lib/assets/bovenste.jpg"
+  "src/lib/assets/bovenste.avif": {
+    "file": "_app/immutable/assets/bovenste.63dbcf15.avif",
+    "src": "src/lib/assets/bovenste.avif"
   },
   "src/lib/assets/carousel-img-1.avif": {
     "file": "_app/immutable/assets/carousel-img-1.8bb9eaf5.avif",
@@ -88,21 +88,21 @@
     "file": "_app/immutable/assets/carousel-img-3.977929cf.avif",
     "src": "src/lib/assets/carousel-img-3.avif"
   },
-  "src/lib/assets/derde.jpg": {
-    "file": "_app/immutable/assets/derde.6a37aaf1.jpg",
-    "src": "src/lib/assets/derde.jpg"
+  "src/lib/assets/derde.avif": {
+    "file": "_app/immutable/assets/derde.bbba9ac1.avif",
+    "src": "src/lib/assets/derde.avif"
   },
-  "src/lib/assets/img-planten.png": {
-    "file": "_app/immutable/assets/img-planten.748adca6.png",
-    "src": "src/lib/assets/img-planten.png"
+  "src/lib/assets/img-planten.avif": {
+    "file": "_app/immutable/assets/img-planten.5f84573f.avif",
+    "src": "src/lib/assets/img-planten.avif"
   },
-  "src/lib/assets/laatste.jpg": {
-    "file": "_app/immutable/assets/laatste.e324d934.jpg",
-    "src": "src/lib/assets/laatste.jpg"
+  "src/lib/assets/laatste.avif": {
+    "file": "_app/immutable/assets/laatste.e2e2a484.avif",
+    "src": "src/lib/assets/laatste.avif"
   },
-  "src/lib/assets/tweede.jpg": {
-    "file": "_app/immutable/assets/tweede.9945f4e6.jpg",
-    "src": "src/lib/assets/tweede.jpg"
+  "src/lib/assets/tweede.avif": {
+    "file": "_app/immutable/assets/tweede.817ff5ea.avif",
+    "src": "src/lib/assets/tweede.avif"
   },
   "src/lib/assets/vector.svg": {
     "file": "_app/immutable/assets/vector.ae57c4bd.svg",
@@ -189,7 +189,7 @@
       "_app/immutable/assets/carousel-img-1.8bb9eaf5.avif",
       "_app/immutable/assets/carousel-img-2.752ad0e8.avif",
       "_app/immutable/assets/carousel-img-3.977929cf.avif",
-      "_app/immutable/assets/img-planten.748adca6.png"
+      "_app/immutable/assets/img-planten.5f84573f.avif"
     ],
     "css": [
       "_app/immutable/assets/_page.e7e10585.css"
@@ -215,10 +215,10 @@
   },
   "src/routes/maken/+page.svelte": {
     "assets": [
-      "_app/immutable/assets/tweede.9945f4e6.jpg",
-      "_app/immutable/assets/bovenste.97226616.jpg",
-      "_app/immutable/assets/derde.6a37aaf1.jpg",
-      "_app/immutable/assets/laatste.e324d934.jpg"
+      "_app/immutable/assets/tweede.817ff5ea.avif",
+      "_app/immutable/assets/bovenste.63dbcf15.avif",
+      "_app/immutable/assets/derde.bbba9ac1.avif",
+      "_app/immutable/assets/laatste.e2e2a484.avif"
     ],
     "css": [
       "_app/immutable/assets/_page.a0be103d.css",

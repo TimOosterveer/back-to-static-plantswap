@@ -15,7 +15,7 @@ const KastImage = create_ssr_component(($$result, $$props, $$bindings, slots) =>
   $$result.css.add(css$6);
   return `<header class="svelte-t402zl"><div class="svelte-t402zl"><img${add_attribute("src", data.kastHeaders[0].image.url, 0)} alt="" class="svelte-t402zl"></div> <h1 class="svelte-t402zl" data-svelte-h="svelte-54elew">De Kast</h1> </header>`;
 });
-const img1 = "/_app/immutable/assets/tweede.9945f4e6.jpg";
+const img1 = "/_app/immutable/assets/tweede.817ff5ea.avif";
 const css$5 = {
   code: "section.svelte-pj7of3{position:sticky;top:0;padding:2em;height:90vh;width:100%;overflow:hidden;color:var(--main-offwhite);color:rgb(255, 217, 184);margin-bottom:55vh}.wrapper-block.svelte-pj7of3{height:100%;width:100%;background-color:rgb(73, 27, 2);display:flex;border-radius:1em;padding:2em}.left-content.svelte-pj7of3{width:100%}.right-content.svelte-pj7of3{height:100%;width:100%}img.svelte-pj7of3{height:100%;width:100%;object-fit:cover;border-radius:1em}h3.svelte-pj7of3{font-size:5em;font-weight:900;max-width:90%;line-height:1em;margin-bottom:1.2rem}p.svelte-pj7of3{max-width:75%}@media screen and (max-width: 1122px){}@media screen and (max-width: 700px){h3.svelte-pj7of3{font-size:2.5em}p.svelte-pj7of3{max-width:100%;padding-bottom:1em}img.svelte-pj7of3{height:60%;width:100%;object-fit:cover;border-radius:1em}.wrapper-block.svelte-pj7of3{flex-direction:column;padding:1em;justify-content:space-between;align-items:center}}",
   map: null
@@ -31,7 +31,7 @@ const TheMaking = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 				groeien) heeft. Verwijder eventuele bladeren aan de onderkant van het stekje om wortelgroei
 				te bevorderen.</p></div> <div class="right-content svelte-pj7of3"><img${add_attribute("src", img1, 0)} alt="" class="svelte-pj7of3"></div></div> </section>`;
 });
-const img$2 = "/_app/immutable/assets/bovenste.97226616.jpg";
+const img$2 = "/_app/immutable/assets/bovenste.63dbcf15.avif";
 const css$4 = {
   code: "section.svelte-1tgfvmx{position:sticky;top:2em;padding:2em;height:90vh;width:100%;overflow:hidden;color:rgb(73, 27, 2);margin-bottom:55vh}.wrapper-block.svelte-1tgfvmx{height:100%;width:100%;background-color:rgb(255, 154, 65);display:flex;border-radius:1em;padding:2em}.left-content.svelte-1tgfvmx{width:100%}.right-content.svelte-1tgfvmx{height:100%;width:100%;padding-left:2em}img.svelte-1tgfvmx{height:100%;width:100%;object-fit:cover;border-radius:1em}h3.svelte-1tgfvmx{font-size:5em;font-weight:900;max-width:90%;line-height:1em;margin-bottom:1.2rem}p.svelte-1tgfvmx{max-width:75%}@media screen and (max-width: 1122px){}@media screen and (max-width: 700px){h3.svelte-1tgfvmx{font-size:2.5em}p.svelte-1tgfvmx{max-width:100%;padding-bottom:1em}img.svelte-1tgfvmx{height:100%;width:100%;object-fit:cover;border-radius:1em}.wrapper-block.svelte-1tgfvmx{flex-direction:column;padding:1em;justify-content:space-between;align-items:center}.left-content.svelte-1tgfvmx{height:35%}.right-content.svelte-1tgfvmx{padding-left:0em;padding-top:1em}}",
   map: null
@@ -45,7 +45,7 @@ const TheMaking2 = create_ssr_component(($$result, $$props, $$bindings, slots) =
 				groeien) heeft. Verwijder eventuele bladeren aan de onderkant van het stekje om wortelgroei
 				te bevorderen.</p></div></div> </section>`;
 });
-const img$1 = "/_app/immutable/assets/derde.6a37aaf1.jpg";
+const img$1 = "/_app/immutable/assets/derde.bbba9ac1.avif";
 const css$3 = {
   code: "section.svelte-13krui{position:sticky;top:4em;padding:2em;height:90vh;width:100%;overflow:hidden;color:rgb(255, 217, 184);margin-bottom:55vh}.wrapper-block.svelte-13krui{height:100%;width:100%;background-color:rgb(59, 89, 62);display:flex;border-radius:1em;padding:2em}.left-content.svelte-13krui{width:100%}.right-content.svelte-13krui{height:100%;width:100%;padding-left:2em}img.svelte-13krui{height:100%;width:100%;object-fit:cover;border-radius:1em}h3.svelte-13krui{font-size:5em;font-weight:900;max-width:90%;line-height:1em;margin-bottom:1.2rem}p.svelte-13krui{max-width:75%}@media screen and (max-width: 1122px){}@media screen and (max-width: 700px){h3.svelte-13krui{font-size:2.5em}p.svelte-13krui{max-width:100%;padding-bottom:1em}img.svelte-13krui{height:100%;width:100%;object-fit:cover;border-radius:1em}.wrapper-block.svelte-13krui{flex-direction:column;padding:1em;justify-content:space-between;align-items:center}.left-content.svelte-13krui{height:35%}.right-content.svelte-13krui{padding-left:0em;padding-top:1em}}",
   map: null
@@ -59,7 +59,7 @@ const TheMaking3 = create_ssr_component(($$result, $$props, $$bindings, slots) =
 				groeien) heeft. Verwijder eventuele bladeren aan de onderkant van het stekje om wortelgroei
 				te bevorderen.</p></div></div> </section>`;
 });
-const img = "/_app/immutable/assets/laatste.e324d934.jpg";
+const img = "/_app/immutable/assets/laatste.e2e2a484.avif";
 const css$2 = {
   code: "section.svelte-1daecxa{position:sticky;top:6em;padding:2em;height:90vh;width:100%;color:rgb(59, 89, 62);margin-bottom:55vh}.wrapper-block.svelte-1daecxa{height:100%;width:100%;background-color:rgb(255, 217, 184);display:flex;border-radius:1em;padding:2em}.left-content.svelte-1daecxa{width:100%}.right-content.svelte-1daecxa{height:100%;width:100%}img.svelte-1daecxa{height:100%;width:100%;object-fit:cover;border-radius:1em}h3.svelte-1daecxa{font-size:5em;font-weight:900;max-width:90%;line-height:1em;margin-bottom:1.2rem}p.svelte-1daecxa{max-width:75%}@media screen and (max-width: 1122px){}@media screen and (max-width: 700px){h3.svelte-1daecxa{font-size:2.5em}p.svelte-1daecxa{max-width:100%;padding-bottom:1em}img.svelte-1daecxa{height:60%;width:100%;object-fit:cover;border-radius:1em}.wrapper-block.svelte-1daecxa{flex-direction:column;padding:1em;justify-content:space-between;align-items:center}}",
   map: null
