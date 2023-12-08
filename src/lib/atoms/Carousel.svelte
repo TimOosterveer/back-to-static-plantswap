@@ -5,6 +5,10 @@
     import image3 from '$lib/assets/carousel-img-3.avif';
     import ButtonGelijkSwappen from './ButtonGelijkSwappen.svelte';
 
+    export let data;
+
+
+
     let intervalId;
 
     onMount(() => {
@@ -37,6 +41,8 @@
         <div class="overlay"></div>
 
         <h1>Swap nu je stekjes!</h1>
+
+        <!--{data.headers[0].imagesCarousel.url}-->
 
         <ButtonGelijkSwappen/>
         <div class="carrousel-a" role="list" tabindex="0" aria-live="polite">
