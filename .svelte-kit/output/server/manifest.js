@@ -10,7 +10,7 @@ return {
 	assets: new Set(["favicon.png","style.css"]),
 	mimeTypes: {".png":"image/png",".css":"text/css"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.58bdeeae.js","app":"_app/immutable/entry/app.15e0f94d.js","imports":["_app/immutable/entry/start.58bdeeae.js","_app/immutable/chunks/scheduler.4e6a9c3a.js","_app/immutable/chunks/singletons.5eda9d4d.js","_app/immutable/entry/app.15e0f94d.js","_app/immutable/chunks/scheduler.4e6a9c3a.js","_app/immutable/chunks/index.f869b299.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.36f5c294.js","app":"_app/immutable/entry/app.08c95b3e.js","imports":["_app/immutable/entry/start.36f5c294.js","_app/immutable/chunks/scheduler.4e6a9c3a.js","_app/immutable/chunks/singletons.5436e891.js","_app/immutable/entry/app.08c95b3e.js","_app/immutable/chunks/scheduler.4e6a9c3a.js","_app/immutable/chunks/index.f869b299.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
@@ -34,42 +34,42 @@ return {
 				id: "/contact",
 				pattern: /^\/contact\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 4 },
+				page: { layouts: [0,], errors: [1,], leaf: 3 },
 				endpoint: null
 			},
 			{
 				id: "/home",
 				pattern: /^\/home\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 5 },
+				page: { layouts: [0,], errors: [1,], leaf: 4 },
 				endpoint: null
 			},
 			{
 				id: "/maken",
 				pattern: /^\/maken\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 6 },
+				page: { layouts: [0,], errors: [1,], leaf: 5 },
 				endpoint: null
 			},
 			{
 				id: "/stekjes_overzicht",
 				pattern: /^\/stekjes_overzicht\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 7 },
+				page: { layouts: [0,], errors: [1,], leaf: 6 },
 				endpoint: null
 			},
 			{
 				id: "/workshops",
 				pattern: /^\/workshops\/?$/,
 				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 8 },
+				page: { layouts: [0,], errors: [1,], leaf: 7 },
 				endpoint: null
 			},
 			{
 				id: "/[slug]",
 				pattern: /^\/([^/]+?)\/?$/,
 				params: [{"name":"slug","optional":false,"rest":false,"chained":false}],
-				page: { layouts: [0,], errors: [1,], leaf: 3 },
+				page: { layouts: [0,], errors: [1,], leaf: 8 },
 				endpoint: null
 			}
 		],

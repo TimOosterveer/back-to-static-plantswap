@@ -16,12 +16,12 @@ export const server_loads = [];
 
 export const dictionary = {
 		"/": [~2],
-		"/contact": [4],
-		"/home": [~5],
-		"/maken": [~6],
-		"/stekjes_overzicht": [~7],
-		"/workshops": [~8],
-		"/[slug]": [~3]
+		"/contact": [3],
+		"/home": [~4],
+		"/maken": [~5],
+		"/stekjes_overzicht": [~6],
+		"/workshops": [~7],
+		"/[slug]": [~8]
 	};
 
 export const hooks = {

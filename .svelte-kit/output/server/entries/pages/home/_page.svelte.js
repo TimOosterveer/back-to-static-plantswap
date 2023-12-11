@@ -19,12 +19,15 @@ const css$8 = {
   map: null
 };
 const Carousel = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { data } = $$props;
   let intervalId;
   onDestroy(() => {
     clearInterval(intervalId);
   });
+  if ($$props.data === void 0 && $$bindings.data && data !== void 0)
+    $$bindings.data(data);
   $$result.css.add(css$8);
-  return `<main class="svelte-1ptfe7j"><div class="carrousel svelte-1ptfe7j" aria-label="Carousel"><div class="overlay svelte-1ptfe7j"></div> <h1 class="svelte-1ptfe7j" data-svelte-h="svelte-zs5oeh">Swap nu je stekjes!</h1> ${validate_component(ButtonGelijkSwappen, "ButtonGelijkSwappen").$$render($$result, {}, {}, {})} <div class="carrousel-a svelte-1ptfe7j" role="list" tabindex="0" aria-live="polite" data-svelte-h="svelte-1ao3shj"><div class="carrousel-picture svelte-1ptfe7j"><img${add_attribute("src", image1, 0)} alt="Slide 1" aria-label="foto-van-stekjes" class="svelte-1ptfe7j"></div> <div class="carrousel-picture svelte-1ptfe7j"><img${add_attribute("src", image2, 0)} loading="”lazy”" alt="Slide 2" aria-label="foto-van-stekjes" class="svelte-1ptfe7j"></div> <div class="carrousel-picture svelte-1ptfe7j"><img${add_attribute("src", image3, 0)} loading="”lazy”" alt="Slide 3" aria-label="foto-van-een-stekje-die-word-gepot" class="svelte-1ptfe7j"></div></div></div> </main>`;
+  return `<main class="svelte-1ptfe7j"><div class="carrousel svelte-1ptfe7j" aria-label="Carousel"><div class="overlay svelte-1ptfe7j"></div> <h1 class="svelte-1ptfe7j" data-svelte-h="svelte-zs5oeh">Swap nu je stekjes!</h1>  ${validate_component(ButtonGelijkSwappen, "ButtonGelijkSwappen").$$render($$result, {}, {}, {})} <div class="carrousel-a svelte-1ptfe7j" role="list" tabindex="0" aria-live="polite" data-svelte-h="svelte-1ao3shj"><div class="carrousel-picture svelte-1ptfe7j"><img${add_attribute("src", image1, 0)} alt="Slide 1" aria-label="foto-van-stekjes" class="svelte-1ptfe7j"></div> <div class="carrousel-picture svelte-1ptfe7j"><img${add_attribute("src", image2, 0)} loading="”lazy”" alt="Slide 2" aria-label="foto-van-stekjes" class="svelte-1ptfe7j"></div> <div class="carrousel-picture svelte-1ptfe7j"><img${add_attribute("src", image3, 0)} loading="”lazy”" alt="Slide 3" aria-label="foto-van-een-stekje-die-word-gepot" class="svelte-1ptfe7j"></div></div></div> </main>`;
 });
 const ButtonLocation_svelte_svelte_type_style_lang = "";
 const css$7 = {
@@ -107,7 +110,7 @@ const SectionFourHome = create_ssr_component(($$result, $$props, $$bindings, slo
 });
 const SectionBannerHome_svelte_svelte_type_style_lang = "";
 const css$1 = {
-  code: "h1.svelte-1ssnxlc{visibility:hidden}main.svelte-1ssnxlc{background-color:var(--background-color)\n    }",
+  code: "h1.svelte-1ssnxlc{visibility:hidden}main.svelte-1ssnxlc{background-color:var(--background-color)\r\n    }",
   map: null
 };
 const SectionBannerHome = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -124,7 +127,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.data === void 0 && $$bindings.data && data !== void 0)
     $$bindings.data(data);
   $$result.css.add(css);
-  return `  ${validate_component(Carousel, "Carousel").$$render($$result, {}, {}, {})} <main class="svelte-jvsanx">${validate_component(SectionOneHome, "SectionOneHome").$$render($$result, {}, {}, {})} ${validate_component(SectionTwoHome, "SectionTwoHome").$$render($$result, {}, {}, {})} ${validate_component(SectionThreeHome, "SectionThreeHome").$$render($$result, {}, {}, {})} ${validate_component(SectionFourHome, "SectionFourHome").$$render($$result, { data }, {}, {})} ${validate_component(SectionBannerHome, "SectionBannerHome").$$render($$result, {}, {}, {})}</main> `;
+  return `  ${validate_component(Carousel, "Carousel").$$render($$result, { data }, {}, {})} <main class="svelte-jvsanx">${validate_component(SectionOneHome, "SectionOneHome").$$render($$result, {}, {}, {})} ${validate_component(SectionTwoHome, "SectionTwoHome").$$render($$result, {}, {}, {})} ${validate_component(SectionThreeHome, "SectionThreeHome").$$render($$result, {}, {}, {})} ${validate_component(SectionFourHome, "SectionFourHome").$$render($$result, { data }, {}, {})} ${validate_component(SectionBannerHome, "SectionBannerHome").$$render($$result, {}, {}, {})}</main> `;
 });
 export {
   Page as default
