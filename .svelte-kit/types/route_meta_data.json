@@ -1,0 +1,30 @@
+{
+	"/": [
+		"src/routes/+page.server.js",
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/contact": [
+		"src/routes/+layout.js"
+	],
+	"/home": [
+		"src/routes/home/+page.server.js",
+		"src/routes/+layout.js"
+	],
+	"/maken": [
+		"src/routes/maken/+page.server.js",
+		"src/routes/+layout.js"
+	],
+	"/stekjes_overzicht": [
+		"src/routes/stekjes_overzicht/+page.server.js",
+		"src/routes/+layout.js"
+	],
+	"/workshops": [
+		"src/routes/workshops/+page.server.js",
+		"src/routes/+layout.js"
+	],
+	"/[slug]": [
+		"src/routes/[slug]/+page.server.js",
+		"src/routes/+layout.js"
+	]
+}
