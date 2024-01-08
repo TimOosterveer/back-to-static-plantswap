@@ -2,9 +2,11 @@
 	export let data;
 	console.log(data)
 	import StekjesInfo from '$lib/molecules/InfoStekjes.svelte'
+	import FilterFunctie from '$lib/atoms/filter.svelte'
 </script>
 
 <StekjesInfo/>
+
 {#each data.stekjes as stekje}
 	<article class={stekje.categories.naam}>
 		<img src={stekje.fotos[0].url} alt="" />

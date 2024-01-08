@@ -2,6 +2,9 @@
 	export let data;
 	import Background from '$lib/atoms/ImageWorkshop.svelte';
 	import Button from '$lib/atoms/ButtonWorkshop.svelte'
+
+	
+
 </script>
 
 <div>
